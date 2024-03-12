@@ -1,0 +1,50 @@
+.section-main{
+    padding: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.contact-heading{
+    color: #fff;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: 2rem;
+}
+.contact-p{
+    margin-right: 40%;
+    color: rgb(148, 154, 154);
+    margin-bottom: 5rem;
+}
+.contact-display label{
+    display: flex;
+    padding: 0.5rem;
+    transform: translateY(-50%);
+    font-size: 1rem;
+}
+.contact-i-mail{
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.contact-section{
+    color: #fff;
+    display: flex;
+}
+.fooot{
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    color: rgb(148, 154, 154);
+    display: flex;
+    justify-content: space-between;
+}
+.fooot-icons{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.fooot-icons-i:hover{
+    color: olivedrab;
+    font-size: larger;
+}
+.fooot p i{
+    cursor: pointer;
+}

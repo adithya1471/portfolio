@@ -1,0 +1,282 @@
+.main-head{
+    left: 53%;
+    top: 40%;
+    margin-left: -15%;
+    position: absolute;
+    margin-top: -5%;
+}
+form{
+    border: solid #fff 2px;
+    padding: 1.5rem;
+    background: linear-gradient(60deg, skyblue,black);
+    border-radius: 1rem;
+}
+form h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    margin: 20px;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.input-box label{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-45%);
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-box i{
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    font-size: 1.2em;
+    right: 8px;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.input-psw{
+    position: relative;
+    margin: 20px;
+    border-bottom: 2px solid #fff;
+    width: 310px;
+}
+.input-psw i{
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 8px;
+    font-size: 1rem;
+}
+.input-psw input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.input-psw label{
+   position: absolute;
+   left: 5px;
+   top: 50%;
+   transform: translateY(-45%);
+   font-size: 1rem;
+   color: #fff;
+   pointer-events: none;
+   transition: 0.5s;
+}
+.forget{
+    margin: -15px 0 30px;
+    font-size: 0.9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.forget a{
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.forget label input{
+    margin-right: 3px;
+    transform: translateY(2px);
+    background: transparent;
+}
+.login-button{
+    width: 100%;
+    height: 2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+    background: #fff;
+}
+button:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.register{
+    margin: 15px 0 30px;
+    font-size: 0.9em;
+    color: #fff;
+    justify-content: center;
+}
+.register label a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register label a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+input:focus~label,
+input:valid~label{
+    top: -5px;
+}
+@media screen and (min-width:400px) and (max-width:1000px) {
+    .main-head{
+        left: 50%;
+        top: 40%;
+        margin-left: -20%;
+        position: absolute;
+        margin-top: -10%;
+    }
+    form{
+        border: solid #fff 2px;
+        padding: 0.5rem;
+        background: linear-gradient(60deg, skyblue,black);
+        border-radius: rem;
+    }
+    form h1{
+        font-size: 35px;
+        color: aliceblue;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+    }
+    .input-box{
+        position: relative;
+        margin: 15px;
+        width: 250px;
+        border-bottom: 2px solid #fff;
+    }
+    .input-box label{
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        transform: translateY(-45%);
+        font-size: 1rem;
+        color: #fff;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    .input-box i{
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        font-size: 0.8rem;
+        right: 8px;
+    }
+    .input-box input{
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        outline: none;
+        border: none;
+        padding: 0 35px 0 5px;
+        color: #fff;
+    }
+    .input-psw{
+        position: relative;
+        margin: 15px;
+        border-bottom: 2px solid #fff;
+        width: 250px;
+    }
+    .input-psw i{
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        font-size: 0.8rem;
+    }
+    .input-psw input{
+        background: transparent;
+        outline: none;
+        border: none;
+        width: 100%;
+        height: 50px;
+        padding: 0 35px 0 5px;
+        color: #fff;
+    }
+    .input-psw label{
+       position: absolute;
+       left: 5px;
+       top: 50%;
+       transform: translateY(-45%);
+       font-size: 1rem;
+       color: #fff;
+       pointer-events: none;
+       transition: 0.5s;
+    }
+    .forget{
+        margin: -15px 0 30px;
+        font-size: 0.7em;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    .forget a{
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    .forget label a:hover{
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+    .forget label input{
+        margin-right: 3px;
+        transform: translateY(2px);
+        background: transparent;
+    }
+    .login-button{
+        width: 100%;
+        height: 1.5rem;
+        background: transparent;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        border-radius: 30px;
+        cursor: pointer;
+        background: #fff;
+    }
+    button:hover{
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+    .register{
+        margin: 10px 0 20px;
+        font-size: 0.8em;
+        color: #fff;
+        justify-content: center;
+    }
+    .register label a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .register label a:hover{
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+    input:focus~label,
+    input:valid~label{
+        top: -3px;
+    }
+}

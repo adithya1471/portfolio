@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+  }
+   .container{
+    height: 100vh;
+    background: #14161b;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner.jpg); 
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+  } 
+   /* .images-size{
+    height: 150px;
+    width: 350px;
+  }
+  
+  .header-image img{
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+  }   */
+  .home-heading{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    position: absolute;
+    top: 55%; 
+    margin-top: -50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: bold;
+  }
+  .link-contact{
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    top: 70%; 
+    margin-top: -30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: bold;
+    border: 1px solid white;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    background: olive;
+  }
+  .link-contact:hover{
+    background: #7d7c7c;
+    color: black;
+    transition: 1s;
+    font-weight: 800;
+    font-size: larger;
+  }
+  @media screen and (min-width:400px) and (max-width:1000px) {
+    .container{
+      height: 100vh;
+      background: #14161b;
+      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner.jpg); 
+       background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+    } 
+    .home-heading{
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 600;
+      position: absolute;
+      top: 50%; 
+      margin-top: -50px;
+      margin-left: 10%;
+      margin-right: 5%;
+      font-family: bold;
+    }
+    .link-contact{
+      color: #fff;
+      font-size: medium;
+      font-weight: 600;
+      position: absolute;
+      top: 60%; 
+      margin-top: -20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: bold;
+      border: 1px solid white;
+      padding: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      background: olive;
+    }
+  }
